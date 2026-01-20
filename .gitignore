@@ -41,3 +41,6 @@ A12_Widget_Documentation_*/pages.log
 
 # Cleaned markdown output (generated)
 *_clean/
+
+# MCP server artifacts
+Uploads*/

@@ -113,6 +113,53 @@ The cleaned output is optimized for AI/LLM consumption with:
 - Proper internal link formatting
 - A comprehensive INDEX.md for easy navigation
 
+## MCP Server Integration
+
+The documentation can be served to AI assistants via MCP (Model Context Protocol) for semantic search and contextual retrieval.
+
+### Setup for Claude Code
+
+Add the MCP documentation server to Claude Code globally:
+
+```bash
+claude mcp add a12-widgets-docs -- npx -y @andrea9293/mcp-documentation-server
+```
+
+Alternatively, enable it per-project by adding a `.mcp.json` file to the project's root directory:
+
+```json
+{
+  "mcpServers": {
+    "a12-widgets-docs": {
+      "command": "npx",
+      "args": ["-y", "@andrea9293/mcp-documentation-server"]
+    }
+  }
+}
+```
+
+### Loading Documents
+
+After scraping and cleaning the documentation, load it into the MCP server:
+
+```bash
+python scripts/load_docs_to_mcp.py A12_Widget_Documentation_38.1.1_clean
+```
+
+This script:
+1. Connects to the MCP server
+2. Flushes any existing documents
+3. Loads all markdown files from the specified directory
+4. Verifies the document count
+
+### Document Update Workflow
+
+When documentation needs to be refreshed:
+
+1. Run the scraper: `python -m src.main`
+2. Run the cleaner: `python -m src.clean_markdown <version_dir>`
+3. Run the loader: `python scripts/load_docs_to_mcp.py <version_dir>_clean`
+
 ## How It Works
 
 1. **URL Discovery**: Uses Playwright to expand all navigation items and collect all page URLs from the SPA
