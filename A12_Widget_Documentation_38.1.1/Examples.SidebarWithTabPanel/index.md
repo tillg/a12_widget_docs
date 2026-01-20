@@ -76,97 +76,97 @@ Company
 
 Edwina Bahringer
 
-![User's avatar image 0](user_avatar_2.png)
+![User's avatar image 0](user_avatar_1.png)
 
 German
-
-Software Engineer
-
-Dedicated Platform, Elegant Template, Gorgeous Library, Gracious Project, Pretty UI Design
-
-Bechtelar - Gutkowski
-
-Malika McDermott
-
-![User's avatar image 1](user_avatar_2.png)
-
-Vietnamese
-
-Software Engineer
-
-Gorgeous Library, Graceful Framework, Gracious Project
-
-Stroman - Collier
-
-Chasity Stracke
-
-![User's avatar image 2](user_avatar_5.png)
-
-British
-
-Software Engineer
-
-Dedicated Platform, Gorgeous Library, Graceful Framework
-
-Witting, Rowe and Hoppe
-
-Hal Goldner
-
-![User's avatar image 3](user_avatar_9.png)
-
-Czech
-
-Software Engineer
-
-Awesome Project, Dedicated Platform, Elegant Template, Gorgeous Library, Gracious Project, Pretty UI Design
-
-Veum, Rowe and Larson
-
-Catherine Graham
-
-![User's avatar image 4](user_avatar_3.png)
-
-Belgium
 
 Software Engineer
 
 Dedicated Platform, Elegant Template, Gorgeous Library, Graceful Framework, Gracious Project
 
-Koelpin - Little
+Bechtelar - Gutkowski
 
-Cydney Reinger
+Malika McDermott
 
-![User's avatar image 5](user_avatar_3.png)
-
-German
-
-Software Engineer
-
-Elegant Template, Graceful Framework
-
-Gleichner, Morar and O'Keefe
-
-Gia Schroeder
-
-![User's avatar image 6](user_avatar_7.png)
+![User's avatar image 1](user_avatar_8.png)
 
 Vietnamese
 
 Software Engineer
 
-Dedicated Platform, Elegant Template, Gorgeous Library, Gracious Project
+Dedicated Platform, Elegant Template, Gorgeous Library, Graceful Framework, Gracious Project
 
-Treutel Inc
+Stroman - Collier
 
-Rhiannon Schaefer
+Chasity Stracke
 
-![User's avatar image 7](user_avatar_4.png)
+![User's avatar image 2](user_avatar_4.png)
 
 British
 
 Software Engineer
 
-Awesome Project, Elegant Template, Gorgeous Library, Pretty UI Design
+Gorgeous Library, Pretty UI Design
+
+Witting, Rowe and Hoppe
+
+Hal Goldner
+
+![User's avatar image 3](user_avatar_1.png)
+
+Czech
+
+Software Engineer
+
+Awesome Project, Dedicated Platform, Elegant Template, Graceful Framework
+
+Veum, Rowe and Larson
+
+Catherine Graham
+
+![User's avatar image 4](user_avatar_2.png)
+
+Belgium
+
+Software Engineer
+
+Elegant Template, Gracious Project
+
+Koelpin - Little
+
+Cydney Reinger
+
+![User's avatar image 5](user_avatar_4.png)
+
+German
+
+Software Engineer
+
+Awesome Project, Elegant Template, Gorgeous Library, Graceful Framework, Gracious Project
+
+Gleichner, Morar and O'Keefe
+
+Gia Schroeder
+
+![User's avatar image 6](user_avatar_2.png)
+
+Vietnamese
+
+Software Engineer
+
+Elegant Template, Gracious Project, Pretty UI Design
+
+Treutel Inc
+
+Rhiannon Schaefer
+
+![User's avatar image 7](user_avatar_6.png)
+
+British
+
+Software Engineer
+
+Gorgeous Library, Graceful Framework, Gracious Project
 
 Price, Kling and Haag
 
@@ -178,19 +178,19 @@ Czech
 
 Software Engineer
 
-Awesome Project, Dedicated Platform, Elegant Template, Gorgeous Library, Graceful Framework
+Dedicated Platform
 
 McLaughlin - Torphy
 
 Erika Schmeler
 
-![User's avatar image 9](user_avatar_6.png)
+![User's avatar image 9](user_avatar_1.png)
 
 Belgium
 
 Software Engineer
 
-Awesome Project, Elegant Template, Gorgeous Library, Graceful Framework
+Awesome Project, Dedicated Platform, Elegant Template, Gorgeous Library, Graceful Framework
 
 Frami and Sons
 
@@ -202,7 +202,7 @@ German
 
 Software Engineer
 
-Awesome Project, Dedicated Platform, Elegant Template, Gorgeous Library, Graceful Framework, Gracious Project
+Elegant Template, Graceful Framework, Pretty UI Design
 
 Prosacco, Cummings and Daugherty
 
@@ -214,32 +214,20 @@ Vietnamese
 
 Software Engineer
 
-Awesome Project, Dedicated Platform, Elegant Template, Graceful Framework, Gracious Project, Pretty UI Design
+Dedicated Platform, Elegant Template, Gorgeous Library, Graceful Framework, Pretty UI Design
 
 Nader - Schneider
 
 Stacey Stiedemann
 
-![User's avatar image 12](user_avatar_8.png)
+![User's avatar image 12](user_avatar_1.png)
 
 British
 
 Software Engineer
 
-Awesome Project, Dedicated Platform, Elegant Template, Graceful Framework, Pretty UI Design
+Awesome Project, Dedicated Platform, Gorgeous Library, Graceful Framework, Pretty UI Design
 
 Hintz - Homenick
-
-Keyshawn Lehner
-
-![User's avatar image 13](user_avatar_1.png)
-
-Czech
-
-Software Engineer
-
-Elegant Template, Graceful Framework, Gracious Project
-
-Waters Group
 
 *code**bug\_report*

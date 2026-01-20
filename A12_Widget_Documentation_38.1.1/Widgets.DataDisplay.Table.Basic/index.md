@@ -388,7 +388,7 @@ Brain.Bechtelar
 
 357.423.9969 x830
 
-Tue Sep 20 1988
+Wed Sep 21 1988
 
 [*email*Landen.MacGyver41@yahoo.com](mailto:Landen.MacGyver41@yahoo.com "E-mail")
 

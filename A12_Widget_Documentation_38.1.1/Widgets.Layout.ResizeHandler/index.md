@@ -23,11 +23,11 @@ To view more examples of using the resize feature, check out:
 - [Master Detail](../Examples.MasterDetail/index.md)
 - [Split View](../Widgets.Layout.SplitView/index.md)
 
-Qui sint incididunt Lorem id adipisicing ea deserunt sint irure cupidatat. Et eiusmod eiusmod id ea ex aliquip cillum voluptate sit incididunt tempor non esse. Elit et reprehenderit consequat elit incididunt voluptate.
-Cillum eiusmod ipsum adipisicing pariatur dolor fugiat sit ea. Consectetur veniam sit laboris nisi nisi veniam sint et incididunt cupidatat. Aliquip in est elit ipsum deserunt enim nostrud tempor veniam. Laborum commodo consectetur proident eiusmod duis eiusmod eiusmod velit anim Lorem pariatur deserunt. Laboris magna culpa ullamco quis aute occaecat reprehenderit veniam commodo irure duis. Exercitation enim incididunt laborum occaecat dolore.
+Velit culpa aliquip exercitation eu duis ullamco minim et ullamco ad mollit in eiusmod minim. Reprehenderit tempor minim exercitation Lorem sit proident dolore ea velit. Nulla ad deserunt ullamco nisi Lorem esse quis enim consequat consectetur magna velit culpa. Ad cillum magna laborum pariatur dolore occaecat laboris ex in.
+Mollit culpa officia aliqua excepteur consectetur in consequat enim ipsum aliqua excepteur. Consequat aliqua Lorem quis labore officia ullamco fugiat nisi minim do duis occaecat dolor do. Non pariatur nulla ex esse sunt commodo esse. Proident consectetur proident commodo non proident velit cillum aute exercitation dolor incididunt amet deserunt dolore.
 
-Qui sint incididunt Lorem id adipisicing ea deserunt sint irure cupidatat. Et eiusmod eiusmod id ea ex aliquip cillum voluptate sit incididunt tempor non esse. Elit et reprehenderit consequat elit incididunt voluptate.
-Cillum eiusmod ipsum adipisicing pariatur dolor fugiat sit ea. Consectetur veniam sit laboris nisi nisi veniam sint et incididunt cupidatat. Aliquip in est elit ipsum deserunt enim nostrud tempor veniam. Laborum commodo consectetur proident eiusmod duis eiusmod eiusmod velit anim Lorem pariatur deserunt. Laboris magna culpa ullamco quis aute occaecat reprehenderit veniam commodo irure duis. Exercitation enim incididunt laborum occaecat dolore.
+Velit culpa aliquip exercitation eu duis ullamco minim et ullamco ad mollit in eiusmod minim. Reprehenderit tempor minim exercitation Lorem sit proident dolore ea velit. Nulla ad deserunt ullamco nisi Lorem esse quis enim consequat consectetur magna velit culpa. Ad cillum magna laborum pariatur dolore occaecat laboris ex in.
+Mollit culpa officia aliqua excepteur consectetur in consequat enim ipsum aliqua excepteur. Consequat aliqua Lorem quis labore officia ullamco fugiat nisi minim do duis occaecat dolor do. Non pariatur nulla ex esse sunt commodo esse. Proident consectetur proident commodo non proident velit cillum aute exercitation dolor incididunt amet deserunt dolore.
 
 *code**center\_focus\_weak**bug\_report*
 

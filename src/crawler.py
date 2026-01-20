@@ -49,6 +49,141 @@ def get_version(page: Page) -> str:
         return 'unknown'
 
 
+def discover_urls_via_search(page: Page) -> list[str]:
+    """Discover all content URLs by traversing all navigation sections.
+
+    The sidebar uses accordion behavior (only one category expanded at a time),
+    so we must process each category separately and handle nested categories.
+
+    Returns list of hash paths (e.g., ['#/get-started/quick-start', ...])
+    """
+    discovered = set()
+
+    # Main navigation sections to visit
+    sections = [
+        ('Get Started', '#/get-started'),
+        ('Basics', '#/basics'),
+        ('Widgets', '#/widgets'),
+        ('Experimental', '#/experimental'),
+        ('Examples', '#/examples'),
+        ('FAQ', '#/faq'),
+    ]
+
+    def collect_urls_from_section(p: Page, section_hash: str) -> set[str]:
+        """Collect all URLs from a section by expanding each category."""
+        urls = set()
+
+        # Use JavaScript to systematically click through all items
+        result = p.evaluate('''async (sectionHash) => {
+            const discovered = new Set();
+            const processedCategories = new Set();
+
+            async function wait(ms) {
+                return new Promise(r => setTimeout(r, ms));
+            }
+
+            async function processCurrentView() {
+                // Get all sidebar buttons
+                const buttons = Array.from(document.querySelectorAll('[role="button"]'));
+                const sidebarBtns = buttons.filter(btn => {
+                    const rect = btn.getBoundingClientRect();
+                    return rect.x < 400 && rect.width > 0;
+                });
+
+                // Find categories (buttons ending with add/remove)
+                const categories = sidebarBtns.filter(btn => {
+                    const text = btn.textContent || '';
+                    return (text.endsWith('add') || text.endsWith('remove')) &&
+                           !text.includes('Show App');
+                });
+
+                // Find leaf items (no add/remove)
+                const leaves = sidebarBtns.filter(btn => {
+                    const text = (btn.textContent || '').trim();
+                    return !text.endsWith('add') && !text.endsWith('remove') &&
+                           !text.includes('Theme') && !text.includes('Show App') &&
+                           text.length > 0 && text.length < 100;
+                });
+
+                // Click each leaf and capture URL
+                for (const leaf of leaves) {
+                    try {
+                        leaf.click();
+                        await wait(80);
+                        const hash = window.location.hash;
+                        if (hash && hash !== '#/' && hash.length > 3) {
+                            discovered.add(hash);
+                        }
+                    } catch (e) {}
+                }
+
+                // Return list of collapsed categories to process
+                return categories
+                    .filter(btn => btn.textContent.endsWith('add'))
+                    .map(btn => btn.textContent.replace(/add$/, '').trim())
+                    .filter(name => !processedCategories.has(name));
+            }
+
+            // Initial processing
+            let categoriesToExpand = await processCurrentView();
+
+            // Process each category
+            while (categoriesToExpand.length > 0) {
+                const catName = categoriesToExpand.shift();
+                processedCategories.add(catName);
+
+                // Find and click this category to expand it
+                const buttons = Array.from(document.querySelectorAll('[role="button"]'));
+                const catBtn = buttons.find(btn => {
+                    const rect = btn.getBoundingClientRect();
+                    if (rect.x >= 400 || rect.width === 0) return false;
+                    const text = btn.textContent || '';
+                    return text.endsWith('add') && text.replace(/add$/, '').trim() === catName;
+                });
+
+                if (catBtn) {
+                    catBtn.click();
+                    await wait(150);
+
+                    // Process the newly expanded category
+                    const newCategories = await processCurrentView();
+                    for (const nc of newCategories) {
+                        if (!processedCategories.has(nc)) {
+                            categoriesToExpand.push(nc);
+                        }
+                    }
+                }
+            }
+
+            return Array.from(discovered);
+        }''', section_hash)
+
+        for url in result:
+            normalized = normalize_hash_path(url)
+            if normalized:
+                urls.add(normalized)
+
+        return urls
+
+    for section_name, section_hash in sections:
+        print(f'Discovering URLs in section: {section_name}', file=sys.stderr)
+
+        # Navigate to section
+        page.goto(BASE_URL + section_hash)
+        wait_for_content(page, timeout=10000)
+        time.sleep(0.3)
+
+        # Collect all URLs from this section
+        section_urls = collect_urls_from_section(page, section_hash)
+        new_urls = section_urls - discovered
+        discovered.update(section_urls)
+
+        print(f'  Found {len(new_urls)} URLs in {section_name} ({len(discovered)} total)', file=sys.stderr)
+
+    print(f'Discovered {len(discovered)} total URLs', file=sys.stderr)
+    return sorted(list(discovered))
+
+
 def discover_urls(page: Page) -> list[str]:
     """Discover all content URLs by traversing navigation.
 

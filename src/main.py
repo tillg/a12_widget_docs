@@ -10,7 +10,7 @@ from pathlib import Path
 
 from playwright.sync_api import sync_playwright
 
-from .crawler import BASE_URL, crawl_page, get_version, download_image, wait_for_content, extract_links, normalize_hash_path
+from .crawler import BASE_URL, crawl_page, get_version, download_image, wait_for_content, extract_links, normalize_hash_path, discover_urls_via_search
 from .extractor import extract_content, transform_links, update_image_references
 from .storage import hash_path_to_directory, save_markdown, save_image
 
@@ -247,9 +247,19 @@ def main():
                 page_entry['scrape_finished'] = None
                 page_entry['scrape_error'] = None
 
-        # Add start URL if this is a fresh start
-        if not state['pages']:
-            add_page(state, '#/')
+        # Add start URL
+        add_page(state, '#/')
+
+        # Discover all URLs via search dialog
+        print('Discovering all pages via search dialog...', file=sys.stderr)
+        logger.info('Starting URL discovery via search dialog')
+        discovered_urls = discover_urls_via_search(page)
+        added_count = 0
+        for url in discovered_urls:
+            if add_page(state, url):
+                added_count += 1
+        print(f'Discovered {len(discovered_urls)} URLs ({added_count} new)', file=sys.stderr)
+        logger.info(f'Discovered {len(discovered_urls)} URLs via search dialog ({added_count} new)')
 
         save_state(output_dir, state)
 

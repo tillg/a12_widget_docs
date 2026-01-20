@@ -22,12 +22,12 @@ Left Area
 
 *menu*
 
-Ea cillum pariatur ea cillum veniam aliquip ex eiusmod magna sit. In voluptate voluptate fugiat incididunt eiusmod non pariatur sit nulla consequat labore ex. Qui Lorem laboris ad nostrud eu irure culpa. Non et occaecat exercitation nisi id est reprehenderit dolor ea dolor sint do do dolore.
-Aute irure minim ut tempor excepteur. Enim veniam aliqua deserunt est dolor ipsum commodo minim. Magna id pariatur consectetur qui. Deserunt quis nulla consequat cupidatat quis.
+Mollit magna id cillum ex enim ullamco. Dolore ipsum est esse sit eu proident excepteur mollit non occaecat ea eu consectetur. Excepteur deserunt ad excepteur adipisicing fugiat excepteur mollit. Nostrud in in dolor commodo. Elit occaecat amet velit fugiat Lorem excepteur eiusmod. Esse ullamco adipisicing velit do qui. Occaecat deserunt sint eu id laboris esse.
+Pariatur cillum proident aliquip pariatur duis. Voluptate ullamco ex labore ex tempor excepteur amet id minim exercitation ea officia veniam cillum. Aliqua sunt esse pariatur pariatur ipsum duis.
 
 Right Area
 
-Cupidatat fugiat do id velit consequat enim elit est duis. Lorem esse aliqua eiusmod pariatur ut est enim ipsum occaecat reprehenderit. Exercitation reprehenderit minim aliquip ut irure laboris mollit consequat mollit magna laborum. Excepteur enim eiusmod duis magna reprehenderit quis cillum ea. Quis minim officia magna fugiat enim sunt commodo ullamco laboris anim magna. Occaecat ut commodo id nisi officia.
+Et laboris esse occaecat voluptate tempor Lorem esse magna veniam sint laborum. Cupidatat consequat aliqua non cillum. Eiusmod eu ullamco mollit proident veniam exercitation sunt exercitation labore sint qui. Aute esse voluptate id aliqua labore adipisicing cillum. Consectetur reprehenderit et nulla enim fugiat culpa nulla irure. Ut tempor occaecat adipisicing dolor et aliquip consectetur esse in et reprehenderit. Voluptate do nulla tempor magna magna elit.
 
 *code**center\_focus\_weak**bug\_report*
 
