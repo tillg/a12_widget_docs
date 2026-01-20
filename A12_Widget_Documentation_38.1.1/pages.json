@@ -1,0 +1,323 @@
+{
+  "scrape": {
+    "scrape_started": "2026-01-20T10:05:10.636152Z",
+    "scrape_finished": "2026-01-20T10:09:56.740409Z"
+  },
+  "pages": [
+    {
+      "url": "#/",
+      "scrape_started": "2026-01-20T10:01:30.370222Z",
+      "scrape_finished": "2026-01-20T10:01:31.707868Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/data-entry/editor/rich-text-editor",
+      "scrape_started": "2026-01-20T10:01:31.713478Z",
+      "scrape_finished": "2026-01-20T10:01:32.294587Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/experimental/supporting-panes-layout",
+      "scrape_started": "2026-01-20T10:01:32.300832Z",
+      "scrape_finished": "2026-01-20T10:01:32.874424Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/layout/resize-handler",
+      "scrape_started": "2026-01-20T10:01:32.880904Z",
+      "scrape_finished": "2026-01-20T10:01:33.438626Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/data-display/interaction-hint",
+      "scrape_started": "2026-01-20T10:01:33.442573Z",
+      "scrape_finished": "2026-01-20T10:01:34.001441Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/data-display/interactive-tile",
+      "scrape_started": "2026-01-20T10:01:34.008709Z",
+      "scrape_finished": "2026-01-20T10:01:34.612429Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/basics",
+      "scrape_started": "2026-01-20T10:01:34.619142Z",
+      "scrape_finished": "2026-01-20T10:01:35.162275Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets",
+      "scrape_started": "2026-01-20T10:01:35.167508Z",
+      "scrape_finished": "2026-01-20T10:01:35.902226Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/get-started",
+      "scrape_started": "2026-01-20T10:01:35.907269Z",
+      "scrape_finished": "2026-01-20T10:01:36.437446Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/navigation/menu/flyout-menu",
+      "scrape_started": "2026-01-20T10:01:36.442339Z",
+      "scrape_finished": "2026-01-20T10:01:37.115387Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/data-display/tree-table",
+      "scrape_started": "2026-01-20T10:01:37.120743Z",
+      "scrape_finished": "2026-01-20T10:01:37.703521Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/data-display/table",
+      "scrape_started": "2026-01-20T10:01:37.711369Z",
+      "scrape_finished": "2026-01-20T10:02:38.660935Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/layout/content-box",
+      "scrape_started": "2026-01-20T10:02:38.667829Z",
+      "scrape_finished": "2026-01-20T10:03:39.994979Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/examples/sidebar-with-tab-panel",
+      "scrape_started": "2026-01-20T10:05:10.643566Z",
+      "scrape_finished": "2026-01-20T10:05:11.816556Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/layout/split-view",
+      "scrape_started": "2026-01-20T10:03:40.527281Z",
+      "scrape_finished": "2026-01-20T10:03:41.058168Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/examples/master-detail",
+      "scrape_started": "2026-01-20T10:03:41.059898Z",
+      "scrape_finished": "2026-01-20T10:03:42.247945Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/basics/utility-classes",
+      "scrape_started": "2026-01-20T10:03:42.255144Z",
+      "scrape_finished": "2026-01-20T10:03:42.960022Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/feedback/progress-bar",
+      "scrape_started": "2026-01-20T10:03:42.964597Z",
+      "scrape_finished": "2026-01-20T10:03:43.505758Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/general/buttons/button",
+      "scrape_started": "2026-01-20T10:03:43.512599Z",
+      "scrape_finished": "2026-01-20T10:03:44.238595Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/navigation/menu/sliding-menu",
+      "scrape_started": "2026-01-20T10:03:44.245004Z",
+      "scrape_finished": "2026-01-20T10:03:44.886960Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/basics/accessibility",
+      "scrape_started": "2026-01-20T10:03:44.894749Z",
+      "scrape_finished": "2026-01-20T10:03:45.434391Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/data-display/tree-table/basic",
+      "scrape_started": "2026-01-20T10:03:45.441269Z",
+      "scrape_finished": "2026-01-20T10:03:46.033120Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/data-display/tree",
+      "scrape_started": "2026-01-20T10:03:46.038609Z",
+      "scrape_finished": "2026-01-20T10:03:46.748072Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/general/link",
+      "scrape_started": "2026-01-20T10:03:46.754246Z",
+      "scrape_finished": "2026-01-20T10:03:47.324804Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/examples/multiselect-table",
+      "scrape_started": "2026-01-20T10:03:47.330393Z",
+      "scrape_finished": "2026-01-20T10:04:48.233533Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/data-display/table/basic",
+      "scrape_started": "2026-01-20T10:05:11.820549Z",
+      "scrape_finished": "2026-01-20T10:06:12.759535Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/data-display/pagination",
+      "scrape_started": "2026-01-20T10:06:12.764408Z",
+      "scrape_finished": "2026-01-20T10:07:45.455604Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/navigation/tab-panel",
+      "scrape_started": "2026-01-20T10:07:45.464911Z",
+      "scrape_finished": "2026-01-20T10:07:46.050256Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/layout/master-detail",
+      "scrape_started": "2026-01-20T10:07:46.063930Z",
+      "scrape_finished": "2026-01-20T10:07:46.650090Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/basics/utility-classes/display",
+      "scrape_started": "2026-01-20T10:07:46.659245Z",
+      "scrape_finished": "2026-01-20T10:07:47.296114Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/basics/theme/spacing",
+      "scrape_started": "2026-01-20T10:07:47.303196Z",
+      "scrape_finished": "2026-01-20T10:07:47.852683Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/data-display/list",
+      "scrape_started": "2026-01-20T10:07:47.858139Z",
+      "scrape_finished": "2026-01-20T10:07:48.464090Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/feedback/toasts/toast",
+      "scrape_started": "2026-01-20T10:07:48.471703Z",
+      "scrape_finished": "2026-01-20T10:07:49.037063Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/examples/multiselect-table/basic",
+      "scrape_started": "2026-01-20T10:07:49.054331Z",
+      "scrape_finished": "2026-01-20T10:08:49.975640Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/examples/multiselect-table/advanced",
+      "scrape_started": "2026-01-20T10:08:49.984654Z",
+      "scrape_finished": "2026-01-20T10:09:50.865570Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/data-entry/select",
+      "scrape_started": "2026-01-20T10:09:50.874528Z",
+      "scrape_finished": "2026-01-20T10:09:51.499953Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/get-started/use-and-configure-widgets-style",
+      "scrape_started": "2026-01-20T10:09:51.505459Z",
+      "scrape_finished": "2026-01-20T10:09:52.107267Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/navigation/dropdown",
+      "scrape_started": "2026-01-20T10:09:52.118253Z",
+      "scrape_finished": "2026-01-20T10:09:52.723862Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/basics/theme/fonts",
+      "scrape_started": "2026-01-20T10:09:52.729971Z",
+      "scrape_finished": "2026-01-20T10:09:53.287575Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/basics/theme/colors",
+      "scrape_started": "2026-01-20T10:09:53.293059Z",
+      "scrape_finished": "2026-01-20T10:09:53.853318Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/basics/theme/theming",
+      "scrape_started": "2026-01-20T10:09:53.858240Z",
+      "scrape_finished": "2026-01-20T10:09:54.420303Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/get-started/migration-instructions/migration-to-styled-components",
+      "scrape_started": "2026-01-20T10:09:54.429963Z",
+      "scrape_finished": "2026-01-20T10:09:54.975133Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/data-entry/icon-picker",
+      "scrape_started": "2026-01-20T10:09:54.989321Z",
+      "scrape_finished": "2026-01-20T10:09:55.580539Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/general/icon",
+      "scrape_started": "2026-01-20T10:09:55.583097Z",
+      "scrape_finished": "2026-01-20T10:09:56.152101Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    },
+    {
+      "url": "#/widgets/data-entry/text-field",
+      "scrape_started": "2026-01-20T10:09:56.154707Z",
+      "scrape_finished": "2026-01-20T10:09:56.735789Z",
+      "scrape_result": "success",
+      "scrape_error": null
+    }
+  ]
+}
